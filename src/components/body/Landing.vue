@@ -6,7 +6,21 @@ export default {
 
 <template>
 <div class="landing-wrapper">
-    <div class="landing-desc">
+    <div class="landing-desc"
+    v-motion 
+    :initial="{
+        x: 100,
+        opacity: 0
+      }"
+      :enter="{
+        x: 0,
+        opacity: 1,
+        transition: {
+          duration: 300,
+          type: 'sprint',
+          ease: 'easeIn',
+        }
+    }">
         <div class="desc-label">
             <label>I am</label><label class="desig">Web Developer</label>
         </div>
