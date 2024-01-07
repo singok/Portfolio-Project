@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="skill" v-motion-slide-visible-bottom >
+    <div class="skill" v-motion-slide-visible-bottom>
         <div class="skill-icon">
         </div>
         <div class="skill-heading mint">

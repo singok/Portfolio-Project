@@ -8,10 +8,10 @@ export default {
 <div class="nav mint-bg">
     <ul class="nav-item snow">
         <li>home</li>
+        <li>about me</li>
         <li>skills</li>
         <li>projects</li>
         <li>contact</li>
-        <li>about me</li>
     </ul>
 </div>
 </template>
