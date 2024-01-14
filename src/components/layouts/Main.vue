@@ -1,4 +1,6 @@
 <script>
+import Navigation from './Navigation.vue';
+import Footer from './Footer.vue';
 import Landing from '../body/Landing.vue';
 import Card from '../body/Card.vue';
 import Heading from '../body/Heading.vue';
@@ -8,6 +10,8 @@ import Contact from '../body/Contact.vue';
 export default {
     name:"Main",
     components: {
+        Navigation,
+        Footer,
         Landing,
         Card,
         Heading,
@@ -19,6 +23,7 @@ export default {
 </script>
 
 <template>
+    <Navigation />
     <Landing />
     <div class="about-container bg-color">
         <div class="layout-wrapper">
@@ -68,6 +73,7 @@ export default {
             </div>
         </div>
     </div>
+    <Footer />
 </template>
 
 <style scoped>

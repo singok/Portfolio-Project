@@ -58,9 +58,11 @@ export default {
 }
 .input-text {
     padding: .75rem 1rem;
+    font-size: 1.2rem;
 }
 textarea {
     height: 4rem;
+    font-size: 1.2rem;
 }
 .contact-btn {
     color: white;

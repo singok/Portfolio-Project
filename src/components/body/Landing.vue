@@ -22,11 +22,13 @@ export default {
         }
     }">
         <div class="desc-label">
-            <label>I am</label><label class="desig">Web Developer</label>
+            <label>I am</label><label class="design">Web Developer</label>
         </div>
     </div>
     <div class="landing-img">
-        
+        <div class="image-profile">
+            <img src="../../assets/images/profile.png" />
+        </div>
     </div>
 </div>
 </template>
@@ -53,11 +55,18 @@ export default {
     left: 50%;
     transform: translate(-50%, -100%);
 }
-.desig {
+.design {
     font-size:4rem;
     font-weight:bold;
 }
 .landing-img {
     width: 50%;
+    position: relative;
+}
+.image-profile {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>

@@ -7,6 +7,7 @@ export default {
 <template>
     <div class="skill" v-motion-slide-visible-bottom>
         <div class="skill-icon">
+            <font-awesome-icon :icon="['fab', 'laravel']" />
         </div>
         <div class="skill-heading mint">
             Lorem

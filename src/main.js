@@ -15,10 +15,18 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faLaravel } from '@fortawesome/free-brands-svg-icons';
+import { faChartBar } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
+import { faGear } from '@fortawesome/free-solid-svg-icons';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
-library.add(faUserSecret)
+library.add(faLaravel, faChartBar, faStar, faPersonDigging, faGear, faTrash, faPenToSquare)
+
+import router from './routes';
 
 app.component('font-awesome-icon', FontAwesomeIcon)
-app.mount('#app')
+app.use(router).mount('#app')
